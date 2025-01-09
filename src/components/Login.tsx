@@ -41,8 +41,8 @@ const Login: React.FC = () => {
     <div className="h-[calc(100vh-200px)] flex items-center justify-center">
       <div className="max-w-md w-full p-8 bg-white rounded-xl shadow-lg">
         <div className="flex flex-col items-center mb-6">
-          <div className="bg-blue-600 p-4 rounded-full mb-4">
-            <Train size={48} className="text-white" />
+          <div className="p-4 rounded-full mb-4">
+          <img src="https://pbs.twimg.com/profile_images/1561596530166882304/2Wo87HwQ_400x400.jpg" width="170"/>
           </div>
           <h1 className="text-2xl font-bold text-center text-gray-900">East Coast Railway</h1>
           <h2 className="text-xl font-semibold text-center text-gray-700 mt-2">Electrical (OP)</h2>
@@ -55,7 +55,7 @@ const Login: React.FC = () => {
             value={userId}
             onChange={(e) => setUserId(e.target.value)}
             className="w-full p-3 border border-gray-300 rounded-lg mb-4"
-            placeholder="Enter your ID (e.g., STUDENT123)"
+            placeholder="Enter your ID (e.g., SCMN1234)"
             required
           />
           {error && (
