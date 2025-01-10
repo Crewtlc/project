@@ -164,7 +164,7 @@ const Quiz: React.FC = () => {
             Question {quizState.currentQuestion + 1} of {quizState.questions.length}
           </span>
           <span className="text-sm text-gray-600 font-bold">Score: {quizState.score}</span>
-          <span className="text-sm text-gray-600 font-bold">Time Left: {timeLeft}s</span>
+          <span className="text-xl text-sm text-gray-600 font-extra-bold">Time Left: {timeLeft}s</span>
         </div>
         <h2 className="text-xl font-semibold">{currentQuestion.question}</h2>
       </div>
