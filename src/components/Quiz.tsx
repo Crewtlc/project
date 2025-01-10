@@ -160,11 +160,11 @@ const Quiz: React.FC = () => {
     <div className="max-w-lg mx-auto p-6 bg-white rounded-xl shadow-lg">
       <div className="mb-6">
         <div className="flex justify-between items-center mb-4">
-          <span className="text-sm text-gray-600">
+          <span className="text-sm text-gray-600 font-bold">
             Question {quizState.currentQuestion + 1} of {quizState.questions.length}
           </span>
-          <span className="text-sm text-gray-600">Score: {quizState.score}</span>
-          <span className="text-sm text-gray-600">Time Left: {timeLeft}s</span>
+          <span className="text-sm text-gray-600 font-bold">Score: {quizState.score}</span>
+          <span className="text-sm text-gray-600 font-bold">Time Left: {timeLeft}s</span>
         </div>
         <h2 className="text-xl font-semibold">{currentQuestion.question}</h2>
       </div>

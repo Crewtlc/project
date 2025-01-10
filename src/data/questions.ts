@@ -21,7 +21,7 @@ export const questions: Question[] = [
   },
   {
     id: 4,
-    question: "Who painted the Mona Lisa?",
+    question: "Who painted the Mona Lisa",
     options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
     correctAnswer: "Leonardo da Vinci"
   },
