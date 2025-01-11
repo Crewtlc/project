@@ -90,10 +90,8 @@ const Quiz: React.FC = () => {
         {
           user_id: userId,
           score: quizState.score,
-          total_questions: quizState.questions.length,
-          answers: quizState.answers, // Saving the answers
+          total_questions: quizState.questions.length, // Saving the answers
           questions: results, // Store the detailed questions with answers
-          completed_at: new Date().toISOString(),
         },
       ]);
 
